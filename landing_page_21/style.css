@@ -1,0 +1,136 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+}
+#header {
+  height: 100vh;
+}
+#header{
+  background-image: url(img/home.jpg);
+  background-size: cover;
+}
+#header .home h1 {
+  text-align: center;
+  margin-top: 100px;
+  font-size: 70px;
+  font-weight: bold;
+  color: white;
+}
+
+@media screen and (max-width:1000px){
+  #header{
+  
+  }
+  #header .home h1{
+    font-size: 40px;
+    padding: 100px;
+  }
+}
+
+/* image */
+#image {
+}
+#image .card img {
+  
+}
+#image .card h5 {
+  font-size: 15px;
+}
+#image .card h5 span {
+}
+#image #card2 .card {
+  border-radius: 10px 10px 0 0;
+}
+#image #image2 {
+  width: 100%;
+  height: auto;
+  border-radius: 10px 10px 0 0;
+}
+#image #card2 h5 {
+  margin-top: 10px;
+  color: #6e7491;
+  padding: 10px;
+}
+#image #card2 h5 span {
+  color: #605dec;
+  font-weight: bold;
+}
+#image #card2 p {
+  font-size: 12px;
+  margin: 10px;
+}
+@media screen and (max-width:500px){
+  #image p{
+    text-align: center;
+    font-size: 10px;
+  }
+}
+@media screen and (max-width:1000px) {
+    #image .card img{
+    width: 200px;
+  }
+  #image .card{
+    width: 200px;
+    margin: auto;
+  }
+  #image .card p{
+    font-size: 10px;
+  }
+}
+
+/* gallary */
+#gallary {
+  margin-top: 50px;
+}
+#gallary p {
+  font-size: 20px;
+  color: #6e7491;
+  font-weight: 700;
+}
+#gallary p span {
+  color: #5cd6c0;
+}
+#gallary .card {
+  height: 450px;
+  margin-top: 40px;
+}
+#gallary .card h5 {
+  font-size: 15px;
+  color: #6e7491;
+  padding: 10px;
+}
+#gallary h5 span {
+  color: #5cd6c0;
+}
+#gallary .card p {
+  font-size: 10px;
+  margin-left: 10px;
+}
+#gallary #btn1 {
+  text-align: center;
+  margin-top: 50px;
+}
+#gallary #btn1 button {
+  background-color: #605dec;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  font-weight: 200;
+}
+@media screen and (max-width:1000px) {
+  #gallary .card{
+    width: 250px;
+    height: auto;
+    margin: auto;
+  }
+}
+
+#testi{
+  height: 55vh;
+  margin-top: 30px;
+  background-color: #605dec;
+}
